@@ -11,7 +11,8 @@ Ans→ Python supports multiple programming paradigms including :
 6.Reflective programming.
 
 3. Is python case sensitive when dealing with identifiers?
-Ans→ Yes, Python is case sensitive when dealing with identifiers, including variables, function names, and class names. For example, "Variable" and "variable" would be treated as different identifiers in Python.
+Ans→ Yes, Python is case sensitive when dealing with identifiers, including variables, function names, and class names. For example, "Variable" and "variable"
+would be treated as different identifiers in Python.
 
 4. What is the correct extension of the python file?
 Ans→ The correct extension for a python file is “.py”.
