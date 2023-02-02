@@ -1,0 +1,98 @@
+1. Who developed the python programming language?
+Ans→ Python was developed by Guido van Rossum and first released in 1991.
+
+2. Which type of programming does python support?
+Ans→ Python supports multiple programming paradigms including : 
+1.Object oriented programming(oop).
+2.Imperative programming.
+3.Functional programming.
+4.procedural programming.
+5.Aspect oriented programming.
+6.Reflective programming.
+
+3. Is python case sensitive when dealing with identifiers?
+Ans→ Yes, Python is case sensitive when dealing with identifiers, including variables, function names, and class names. For example, "Variable" and "variable" would be treated as different identifiers in Python.
+
+4. What is the correct extension of the python file?
+Ans→ The correct extension for a python file is “.py”.
+
+5. Is python code compiled or interpreted?
+Ans→ Python is an interpreted language, which means that the code is executed line by line at runtime by an interpreter, rather than being compiled into machine code beforehand.
+
+6. Name a few blocks of code used to define in the python language?
+Ans→ Here are some common blocks of code in python.
+1.for loop : ‘for item in iterable :’.
+2.if statement : ‘if condition :’.
+
+
+7. State a character used to give single line comments in python?
+Ans→ The character used to give single line comments in Python is ‘#’.
+
+8. Mention function which can help us to find the version of python that we are currently working on?
+Ans→ The ‘sys’ module in Python provides a built-in function called ‘sys.version’ to retrieve the version information of the Python interpreter in use.
+Example,
+
+import sys
+
+print("Python version")
+print(sys.version)
+print("Version info.")
+print(sys.version_info)
+
+9. Python supports the creation of anonymous function at runtime using a construct called_____________
+Ans→ “lambda” expression.
+
+10. What does pip stand for python?
+Ans→ Pip stands for "Pip Installs Packages". It is a package management system for Python, used to install and manage packages that are found in the Python Package Index (PyPI).
+
+11. Mention a few built-in functions in python?
+Ans→ Here are a few built-in functions in Python:
+
+'print()': used to display output on the console.
+'len()': returns the length of an object, for example, the number of items in a list.
+'int()': converts a number or string to an integer.
+'float()': converts a number or string to a floating-point number.
+'str()': converts any data type to a string.
+
+12. What is the maximum possible length of an identifier in python?
+Ans→ There is no theoretical limit to the length of an identifier in Python, but in practice, the maximum length of an identifier is determined by the amount of memory available in the system. However, for readability purposes, it is recommended to keep the length of an identifier reasonably short, typically not more than a few dozen characters.
+
+13. What are the benefits of using python?
+Ans→ There are several benefits of using Python:
+Easy to learn and use: Python has a simple and readable syntax, making it easy for new programmers to pick up and start using.
+Versatile: Python can be used for a wide range of tasks, including web development, scientific computing, data analysis, artificial intelligence, and more.
+Large Community: Python has a large and growing community of developers, which means that there are many resources available for learning, getting help, and finding packages and modules to use.
+Interoperability: Python can be easily integrated with other languages and tools, allowing you to use the best tool for the job.
+Large Standard Library: Python has a vast standard library that includes modules for a wide range of tasks, such as connecting to web servers, reading and writing files, and working with data.
+Dynamic Typing: Python uses dynamic typing, which means that you don't need to declare the data type of a variable before using it. This makes development faster and easier.
+14. How is memory managed in python?
+Ans→ Memory management in Python is done automatically by the Python interpreter, through a process called "garbage collection". The Python interpreter keeps track of the objects in memory and automatically frees up memory that is no longer being used by the program.
+15. How to install python on windows and set path variables?
+Ans→Here are the steps to install Python on Windows and set the PATH variables:
+
+Download the Python installer: Visit the official Python website (https://www.python.org/downloads/) and download the latest version of Python for Windows.
+
+Run the Python installer: Double-click the downloaded file to start the installation process. Follow the on-screen instructions to complete the installation.
+
+Set the PATH variable: To set the PATH variable, follow these steps:
+a. Open the Start menu and search for "Environment Variables".
+b. Click on "Edit the system environment variables".
+c. Click on the "Environment Variables" button.
+d. Under "System Variables", scroll down and find the "Path" variable.
+e. Click "Edit" and then "New".
+f. Add the location of the Python executable file to the PATH. On a typical installation, the location will be "C:\PythonXX\PythonXX\Scripts", where "XX" is the version number of Python you have installed.
+g. Click "OK" to close all the dialog boxes.
+
+Verify the installation: To verify that Python has been installed and the PATH variable has been set correctly, open the Command Prompt and type "python". If the installation was successful, you should see the Python prompt and be able to enter commands.
+
+By following these steps, you should be able to install Python on your Windows machine and set the PATH variable correctly, which will allow you to run Python from any directory in the Command Prompt.
+
+16. Is indentation required in python?
+Ans→Yes, indentation is required in Python and it is used to define code blocks. In Python, indentation is used to indicate the scope of a block of code, such as a loop or a conditional statement. The amount of indentation is significant, and it is used to determine the nesting level of code blocks.
+
+For example, the following code defines a simple for loop that iterates over a range of numbers:
+for i in range(10):
+    print(i)
+
+Here, the code inside the for loop is indented, which indicates that it is part of the loop. If the code was not indented, it would be considered part of the main program, and not part of the loop.
+
